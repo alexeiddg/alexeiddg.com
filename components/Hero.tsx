@@ -46,7 +46,7 @@ const Hero = () => {
                     />
 
                     <p className="text-center md:tracking-wider pt-4 text-sm md:text-base lg:text-lg">
-                        My name is Alexei, I'm a Fullstack Application Developer based in Guadalajara, Mexico.
+                        My name is Alexei, I'm a Fullstack Developer based in Guadalajara, Mexico.
                     </p>
 
                     <div className="pt-4">

@@ -1,12 +1,12 @@
 import { BentoGrid } from "@/components/ui/bento-grid";
 import { BentoGridItem } from "@/components/ui/bento-grid";
-import { gridItems } from "@/const/grid-items";
+import { gridItemsData } from "@/const/grid-itemsData";
 
 const Grid = () => {
     return (
         <section id='about'>
             <BentoGrid>
-                {gridItems.map(({ id,
+                {gridItemsData.map(({ id,
                                     title,
                                     description,
                                     className,
