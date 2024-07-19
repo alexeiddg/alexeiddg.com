@@ -5,7 +5,7 @@ import "../styles/globals.css";
 const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alexeiddg | ",
+  title: "Alexeiddg | Pathscreative ",
   description: "Be Creative Today",
 };
 

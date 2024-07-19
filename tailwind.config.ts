@@ -18,6 +18,10 @@ const config: Config = {
         'background': '#FFFBF2',
         'blue-text': '#003AFF',
       },
+      fontFamily: {
+        'RobotoSerif': ['Roboto_Serif'],
+        'custom': ['CustomFont'],
+      },
     },
   },
   plugins: [],

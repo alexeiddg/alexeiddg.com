@@ -2,7 +2,7 @@
 
 export default function Landing() {
     return (
-        <div className="bg-background w-full h-full">
+        <section className="bg-background w-full h-full">
             <div className="flex flex-col sm:flex-row justify-center sm:justify-between pt-12">
                 <p className="p-24">
                     &quot;
@@ -87,6 +87,6 @@ export default function Landing() {
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
