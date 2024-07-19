@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section className="bg-background pt-52 flex flex-col sm:flex-row">
+        <section className="bg-background pt-52 flex flex-col sm:flex-row" id="about">
             <div className="pb-12">
                 <h2 className="pl-12 font-extrabold text-2xl sm:text-6xl font-RobotoSerif">
                     About
@@ -50,9 +50,9 @@ export default function About() {
                         <li>Creative Design</li>
                     </ul>
                 </div>
-                <div className="font-extrabold text-4xl lg:text-7xl text-center py-24">
+                <div className="font-extrabold text-4xl lg:text-7xl text-center pt-24">
                     <h1 className="pt-36 pl-8 font-RobotoSerif">Let&apos;s Be
-                        <span className="text-blue-text underline px-4">Creative</span>
+                        <a href="#landing" className="text-blue-text underline px-4">Creative</a>
                         Today.
                     </h1>
                 </div>

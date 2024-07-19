@@ -2,7 +2,7 @@
 
 export default function Landing() {
     return (
-        <section className="bg-background w-full h-full">
+        <section className="bg-background w-full h-full" id="landing">
             <div className="flex flex-col sm:flex-row justify-center sm:justify-between pt-12">
                 <p className="p-24">
                     &quot;
@@ -14,7 +14,7 @@ export default function Landing() {
                 </p>
                 <h2 className="pl-24 pt-0 sm:pr-24 sm:pt-36">
                     <a
-                        href=""
+                        href="#projects"
                         className="underline text-xl sm:text-3xl font-bold "
                     >
                         projects
@@ -24,14 +24,21 @@ export default function Landing() {
             {/* Section */}
             <div className="flex flex-col flex-grow pt-8 pb-8 items-center justify-center">
                 <div className="pb-16 relative">
-                    <h1 className="font-bold text-4xl sm:text-7xl pb-2">
+                    <h1 className="font-bold text-4xl sm:text-7xl sm:pb-2">
                         Alexeiddg
                     </h1>
-                    <svg className="absolute z-0 hidden sm:block" width="529.85" height="203.89" viewBox="0 0 529.85 203.89"
+                    <svg className="absolute z-0 hidden sm:block" width="529.85" height="203.89"
+                         viewBox="0 0 529.85 203.89"
                          xmlns="http://www.w3.org/2000/svg"
                          style={{transform: 'rotate(344deg)', top: '-58%', left: '-30%', transformOrigin: 'center'}}>
                         <ellipse cx="264.925" cy="101.945" rx="210" ry="90" stroke="blue" fill="none"
                                  strokeWidth="3"/>
+                    </svg>
+                    <svg className="absolute z-0 sm:hidden" width="270" height="115" viewBox="0 0 300 115"
+                         xmlns="http://www.w3.org/2000/svg"
+                         style={{transform: 'rotate(344deg)', top: '-45%', left: '-30%', transformOrigin: 'center'}}>
+                        <ellipse cx="150" cy="57.5" rx="120" ry="50" stroke="blue" fill="none"
+                                 strokeWidth="2"/>
                     </svg>
                 </div>
                 <p className="pb-2 flex flex-col sm:flex-row">
@@ -52,7 +59,7 @@ export default function Landing() {
             <div className="flex flex-col">
                 <h2 className="pl-12 sm:pl-36 pt-8">
                     <a
-                        href=""
+                        href="#about"
                         className="underline text-xl sm:text-3xl font-bold"
                     >
                         about
@@ -71,12 +78,12 @@ export default function Landing() {
                 </h2>
             </div>
             {/* Section */}
-            <div className="flex flex-col items-center justify-center pt-12">
+            <div className="flex flex-col items-center justify-center pt-12 sm:pt-36">
                 <p className="text-blue-text font-semibold text-lg">
                     Be creative today
                 </p>
                 <div className="py-4">
-                    <a href="">
+                    <a href="#projects">
                         <svg fill="#000000" height="40px" width="40px" version="1.1" id="Layer_1"
                              xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                              viewBox="0 0 242.133 242.133" xmlSpace="preserve">
