@@ -49,7 +49,7 @@ export default function Landing() {
                     / Cloud Architecture & Development
                 </p>
                 <a className="underline">
-                    becreative@alexeiddg.com
+                    becreative@pathscreative.com
                 </a>
                 <h1 className="font-bold text-4xl sm:text-7xl pt-4">
                     For <span className="ml-2">Pathscreative </span>

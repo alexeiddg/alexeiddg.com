@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function About() {
     return (
         <section className="bg-background pt-52 flex flex-col sm:flex-row" id="about">
@@ -12,13 +14,15 @@ export default function About() {
                 </p>
                 <div className="pl-12 pt-16 sm:pt-52 flex flex-col justify-center">
                     <ul className="text-center space-y-2">
-                        <li>Pathscreative <br/></li>
-                        <li><a className="underline">LinkedIn</a><br/></li>
-                        <li><a className="underline text-blue-text">becreative@alexeiddg.com</a><br/></li>
-                        <li><a className="underline">CV</a><br/></li>
+                        <li><a>Pathscreative</a></li>
+                        <li><a>Launchstar CMS</a></li>
+                        <li><a href="https://www.linkedin.com/in/alexeidg/" className="underline">LinkedIn</a><br/></li>
+                        <li><a className="underline text-blue-text">becreative@pathscreative.com</a><br/></li>
+                        <li><Link href="/experience" className="underline">CV</Link><br/></li>
                     </ul>
                 </div>
                 <div className="pl-12 pt-12 sm:pt-72">
+                    <p className="font-light text-xs text-center">Based In Mexico, Available Worldwide.</p>
                     <p className="font-light text-sm">&copy Alexei Delgado &copy; 2024</p>
                 </div>
             </div>
@@ -27,14 +31,17 @@ export default function About() {
             </div>
             <div className="flex flex-col px-12 sm:flex-1   ">
                 <h2 className="px-16 font-extrabold text-4xl">About Me:</h2>
-                <p className="px-16 pt-4 sm:text-base">
+                <p className="px-16 sm:px-32 pt-4 sm:text-base">
                     &quot;
-                    After 15 years of experience in digital craft and guiding UX & UI
-                    teams within the digital design scene I&apos;m now focused on sharing
-                    my knowledge with you. My focus is helping companies to champion
-                    their work, optimise design departments and leap what’s next. I&apos;m here to raise the bar,
-                    help you outclass the competition and compliment each other to get the most out of your
-                    design departments and organisation.
+                    Leveraging experience in digital craftsmanship and leading development teams,
+                    I bring a wealth of knowledge and expertise to each project. My focus is on helping
+                    companies elevate their work, optimize design, and leap into the future with confidence.
+                    I offer robust, scalable Fullstack Application Development that drives results and streamlines
+                    operations, as well as cutting-edge Cloud Architecture & Development solutions that enhance
+                    performance and flexibility. I create visually stunning and user-friendly Web Design & User
+                    Experience that captivate and engage audiences, and deliver innovative and compelling Creative
+                    Design that stands out and makes an impact. Ready to take your project to the next level? Let&apos;s
+                    connect and work together to achieve your goals.
                     &quot;
                 </p>
                 <div className="flex flex-col items-end justify-center pt-24">
