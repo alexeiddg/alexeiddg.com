@@ -58,7 +58,7 @@ export default function Experience() {
                         <p className="text-sm italic">June 2024</p>
                         <ul className="list-disc list-inside mt-2">
                             <li>Developed a React Native app to control a custom-built tennis pitcher via Bluetooth Low Energy (BLE), enabling wireless management of the device. The app communicates with an ESP32 microprocessor programmed to control five motors, adjusting feed, height, backspin, topspin, and direction for optimal training sessions.</li>
-                            <li>Implemented features for saving and executing custom configurations locally on the user's device, providing a seamless and personalized training experience. Conducted extensive testing to ensure reliable BLE connectivity and accurate motor control.</li>
+                            <li>Implemented features for saving and executing custom configurations locally on the user&apos;s device, providing a seamless and personalized training experience. Conducted extensive testing to ensure reliable BLE connectivity and accurate motor control.</li>
                         </ul>
                     </div>
                     <div className="mb-4">
